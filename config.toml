@@ -1,0 +1,31 @@
+theme = "lynx"
+title = "Lynx"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Jonias Fortuna"
+  headline = "semi-transparent boi"
+  image = "author.jpg"
+  links = [
+    { link = "https://potato.id/" },
+    { newpost = "https://potato.id/post/newpost" },
+    { gpg = "https://potato.id/0xF8A9BB636D065BCA90AEB23FE6527B0FFD576400.asc" },
+    { email = "mailto:jonias@potato.id" },
+    { github = "https://github.com/laztname/" },
+    { discord = "https://discord.com/users/394547926980100096" },
+    { facebook = "https://facebook.com/jonias.fortuna" },
+    { instagram = "https://instagram.com/joniasfortuna" },
+    { steam = "https://steamcommunity.com/profiles/userid" },
+    { telegram = "https://t.me/laztname" },
+    { whatsapp = "https://wa.me/1337" },
+    { linkedin = "https://linkedin.com/in/joniasfortuna" }
+  ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
