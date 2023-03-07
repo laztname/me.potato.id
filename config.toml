@@ -29,3 +29,6 @@ disableKinds = ["taxonomy", "term"]
 [markup.goldmark]
 [markup.goldmark.renderer]
   unsafe = true
+
+[params.fathomAnalytics]
+    id = "g4w9enzp5t"
